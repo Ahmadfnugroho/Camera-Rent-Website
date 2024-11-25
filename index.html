@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GLOBAL PHOTO RENTAL</title>
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- icons -->
+    <script src="https://unpkg.com/feather-icons"></script>
+
+    <!-- link CSS -->
+    <link rel="stylesheet" href="css/styles.css" />
+    <!-- Bootstrap CSS -->
+  </head>
+  <body>
+    <!-- navbar start -->
+    <nav class="navbar">
+      <div class="navbar-logo">
+        <a href="#index.html" class="navbar-logo">
+          <span>GLOBAL</span> PHOTO RENTAL
+        </a>
+      </div>
+      <div class="navbar-menu">
+        <a href="#">Kategori</a>
+        <a href="#">Cara Sewa</a>
+        <a href="#">Promo</a>
+        <a href="#">Kontak</a>
+      </div>
+      <div class="navbar-extra">
+        <a href="#" id="cart"><i data-feather="shopping-cart"></i></a>
+        <a href="#" id="user"><i data-feather="user"></i></a>
+        <a href="#" id="menu"><i data-feather="menu"></i></a>
+      </div>
+    </nav>
+    <!-- navbar end -->
+
+    <!-- search bar start -->
+    <section class="search-section">
+      <div class="container-home-search">
+        <div class="wrap-home-search">
+          <div class="box-home-search">
+            <div class="bhs-list bhs-list-date">
+              <div class="bhs-list-title">Pengambilan</div>
+              <div class="bhs-list-subtitle">
+                <span class="param-date">Pilih tanggal</span>
+              </div>
+            </div>
+            <div class="bhs-list bhs-list-duration">
+              <div class="bhs-list-title">Durasi</div>
+              <div class="bhs-list-subtitle">
+                <span class="param-duration">Berapa hari?</span>
+              </div>
+            </div>
+            <div class="bhs-list bhs-list-return-date">
+              <div class="bhs-list-title">Pengembalian</div>
+              <div class="bhs-list-subtitle">
+                <span class="param-return-date">Tanggal Kembali</span>
+              </div>
+            </div>
+            <div class="bhs-list bhs-last bhs-list-product hidden-xs">
+              <div class="bhs-list-title">Produk</div>
+              <div class="bhs-list-subtitle">
+                <input
+                  type="text"
+                  class="inp-param-product-category form-control"
+                  autocomplete="off"
+                  name="product_name_search"
+                  id="product_name_search"
+                  placeholder="Mau cari apa?"
+                />
+              </div>
+            </div>
+            <div class="bhs-list bhs-list-search">
+              <div class="bhs-icon-search btn-search-product">
+                <i data-feather="search" class="feather-icon"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- search bar end -->
+
+    <!-- hero section start -->
+    <section id="home" class="hero">
+      <main class="main">
+        <h1>Boost Your <span>Live-Stream</span></h1>
+        <a href="#" class="btn">Explore More></a>
+      </main>
+    </section>
+    <!-- hero section end -->
+
+    <!-- why-us section start-->
+    <section id="why-us" class="why-us">
+      <h2>Kenapa Harus <span>Kami?</span></h2>
+      <a href="#" class="btn"> View More </a>
+      <div class="row">
+        <div class="why-us-card">
+          <div class="why-us-icon">
+            <i data-feather="thumbs-up" class="feather-icon"></i>
+          </div>
+          <h3 class="why-us-title">Mudah & Fleksibel</h3>
+          <p class="why-us-description">
+            Identitas di luar daerah? tidak jadi masalah. Mau sewa mendadak hari
+            ini tapi belum terdaftar? bisa. Mau sewa tanpa meninggalkan jaminan
+            apapun? bisa banget!
+          </p>
+        </div>
+        <div class="why-us-card">
+          <div class="why-us-icon">
+            <i data-feather="calendar" class="feather-icon"></i>
+          </div>
+          <h3 class="why-us-title">Stok Realtime</h3>
+          <p class="why-us-description">
+            Tidak perlu antri menunggu jawaban CS untuk cek ketersediaan produk.
+            Kamu hanya cukup memasukkan tanggal tujuanmu, langsung tahu stok
+            alat realtime.
+          </p>
+        </div>
+        <div class="why-us-card">
+          <div class="why-us-icon">
+            <i data-feather="clock" class="feather-icon"></i>
+          </div>
+          <h3 class="why-us-title">Cepat & Praktis</h3>
+          <p class="why-us-description">
+            Booking online 24 jam, pengambilan & pengembalian alat 24 jam.
+            Pembayaran instan via GoPay, Dana, MyBCA, QRIS, Virtual Account,
+            Alfamart. Mendapat notifikasi status order otomatis via WhatsApp.
+          </p>
+        </div>
+        <div class="why-us-card">
+          <div class="why-us-icon">
+            <i data-feather="star" class="feather-icon"></i>
+          </div>
+          <h3 class="why-us-title">Berpengalaman & Handal</h3>
+          <p class="why-us-description">
+            Dengan pengalaman belasan tahun di industri foto dan video, kami
+            tidak hanya menyewakan, namun juga akan menjadi rekan yang memahami
+            kebutuhan kamu dengan baik.
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- why-us section end -->
+    <!-- hot-product section start -->
+    <section id="hot-product" class="hot-product">
+      <h2>Produk Kami</h2>
+      <a href="#" class="btn"> View More </a>
+      <div class="row">
+        <!-- hot-product 1 -->
+        <div class="hot-product-card">
+          <img
+            src="img/ef24-70mm-f28l-ii-usm-b1-removebg-preview.png"
+            class="card-img-top"
+            alt="Hot Product 1"
+          />
+          <h3 class="card-title">Lensa Canon EF 24-70mm F/2.8L USM</h3>
+          <p class="card-text">Rp100.000</p>
+        </div>
+        <!-- hot-product 2 -->
+
+        <div class="hot-product-card">
+          <img
+            src="img/image-removebg-preview (1).png"
+            class="card-img-top"
+            alt="Hot Product 2"
+          />
+          <h3 class="card-title">Saramonic Blink500 B2 Wireless</h3>
+          <p class="card-text">Rp100.000</p>
+        </div>
+        <!-- hot-product 3 -->
+        <div class="hot-product-card">
+          <img
+            src="img/image-removebg-preview (2).png"
+            class="card-img-top"
+            alt="Hot Product 3"
+          />
+          <h3 class="card-title">Godox SL60W</h3>
+          <p class="card-text">Rp100.000</p>
+        </div>
+        <!-- hot-product 4 -->
+        <div class="hot-product-card">
+          <img
+            src="img/image-removebg-preview (3).png"
+            class="card-img-top"
+            alt="Hot Product 4"
+          />
+          <h3 class="card-title">Zhiyun Weebill S</h3>
+          <p class="card-text">Rp100.000</p>
+        </div>
+        <!-- hot-product 5 -->
+        <div class="hot-product-card">
+          <img
+            src="img\image-removebg-preview.png"
+            class="card-img-top"
+            alt="Hot Product 5"
+          />
+          <h3 class="card-title">Canon EOS 6D</h3>
+          <p class="card-text">Rp100.000</p>
+        </div>
+        <!-- hot-product 6 -->
+        <div class="hot-product-card">
+          <img
+            src="img/image-removebg-preview (3).png"
+            class="card-img-top"
+            alt="Hot Product 6"
+          />
+          <h3 class="card-title">Godox TT600 Universal</h3>
+          <p class="card-text">Rp100.000</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- hot-product section end -->
+    <!-- brand section start -->
+    <section id="brand" class="brand">
+      <h2>Brand Produk Kami</h2>
+      <div class="row">
+        <div class="brand-card">
+          <img
+            src="img/brand/image-removebg-preview (1).png"
+            class="card-img-top"
+            alt="Hot Product 6"
+          />
+        </div>
+        <div class="brand-card">
+          <img
+            src="img/brand/image-removebg-preview (2).png"
+            class="card-img-top"
+            alt="Hot Product 6"
+          />
+        </div>
+        <div class="brand-card">
+          <img
+            src="img/brand/image-removebg-preview (3).png"
+            class="card-img-top3"
+            alt="Hot Product 6"
+          />
+        </div>
+        <div class="brand-card">
+          <img
+            src="img/brand/image-removebg-preview (4).png"
+            class="card-img-top"
+            alt="Hot Product 6"
+          />
+        </div>
+        <div class="brand-card">
+          <img
+            src="img/brand/image-removebg-preview (5).png"
+            class="card-img-top"
+            alt="Hot Product 6"
+          />
+        </div>
+        <div class="brand-card">
+          <img
+            src="img/brand/image-removebg-preview (6).png"
+            class="card-img-top"
+            alt="Hot Product 6"
+          />
+        </div>
+      </div>
+      <p>dan masih banyak lainnya</p>
+
+      <p></p>
+    </section>
+
+    <!-- footer section start -->
+    <footer>
+      <div class="footer-container">
+        <div class="footer-section">
+          <div class="box-map">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.717925762567!2d106.84140250991072!3d-6.168513693792988!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f59ab7791adb%3A0xbd23ce14a107aee2!2sGlobal%20Photo%20Rental!5e0!3m2!1sen!2sid!4v1732503886001!5m2!1sen!2sid"
+              width="300"
+              height="200"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
+          <div class="box-footer-sosmed">
+            <div class="ico-footer">
+              <a
+                href="https://www.instagram.com/global.photorental/"
+                target="_blank"
+              >
+                <i data-feather="instagram"></i>
+              </a>
+            </div>
+            <div class="ico-footer">
+              <a
+                href="https://www.facebook.com/global.photorental"
+                target="_blank"
+              >
+                <i data-feather="facebook"></i>
+              </a>
+            </div>
+
+            <div class="ico-footer">
+              <a
+                href="https://api.whatsapp.com/message/RKVS5KQ7NXZFJ1?autoload=1&app_absent=0"
+                target="_blank"
+              >
+                <i data-feather="message-circle"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="footer-section1">
+          <h3>HOW IT WORKS</h3>
+          <ul class="footer-menu">
+            <li>
+              <a href="#" target="_blank">Cara Sewa</a>
+            </li>
+            <li>
+              <a href="#" target="_blank">Cara Booking Online</a>
+            </li>
+            <li>
+              <a href="#" target="_blank">Cara Jadi Member</a>
+            </li>
+            <li>
+              <a href="#" target="_blank">Cara Bayar</a>
+            </li>
+            <li>
+              <a href="#" target="_blank">Terms</a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer-section2">
+          <h3>ABOUT</h3>
+          <ul class="footer-menu">
+            <li>
+              <a href="#" target="_blank">Keunggulan Ozu</a>
+            </li>
+            <li>
+              <a href="#" target="_blank">Updates</a>
+            </li>
+            <li>
+              <a href="#" target="_blank">Coupon</a>
+            </li>
+            <li>
+              <a href="#" target="_blank">Rental Rewards</a>
+            </li>
+            <li>
+              <a href="#" target="_blank">Loyalty</a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer-section2">
+          <h3>SUPPORT</h3>
+          <ul class="footer-menu">
+            <li>
+              <a href="#" target="_blank">Kontak</a>
+            </li>
+            <li>
+              <a href="#" target="_blank">Pusat Bantuan</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-section3">
+        <p>&copy; 2023 Global Photo Rental. All rights reserved.</p>
+      </div>
+    </footer>
+    <!-- footer section end -->
+    <!-- brand section end -->
+    <!-- Feather Icons Initialization Script -->
+    <script>
+      feather.replace(); // Inisialisasi Feather Icons
+    </script>
+
+    <!-- link JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
